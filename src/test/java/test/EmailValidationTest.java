@@ -15,7 +15,7 @@ class EmailValidationTest {
 	@Test
 	void canValidateEmailWithBlankValue() {
 		boolean isValid=EmailValidation.validate("");
-		assertFalse(isValid)
+		assertFalse(isValid);
 	}
 	
 	@Test
