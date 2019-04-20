@@ -21,7 +21,7 @@ class EmailValidationTest {
 	@Test
 	void canValidateEmailWithCorrectEmailID() {
 		boolean isValid=EmailValidation.validate("chandan.krk@gmail.com");
-		assertFalse(isValid);
+		assertTrue(isValid);
 	}
 	@Test
 	void canValidateEmailWithCorrectEmailID2() {
